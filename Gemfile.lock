@@ -73,9 +73,9 @@ GEM
     bootsnap (1.16.0)
       msgpack (~> 1.2)
     builder (3.2.4)
-    cloudinary (1.26.0)
+    cloudinary (1.16.1)
       aws_cf_signer
-      rest-client (>= 2.0.0)
+      rest-client
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
@@ -250,7 +250,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootsnap
-  cloudinary
+  cloudinary (~> 1.16.0)
   debug
   dotenv-rails
   font-awesome-sass (~> 6.1)
